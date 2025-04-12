@@ -1,0 +1,251 @@
+
+/** team-details **/
+
+.team-details{
+  position: relative;
+}
+
+.team-details .content-side{
+  position: relative;
+  display: block;
+}
+
+.team-details .content-side h2{
+  display: block;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.team-details .content-side .designation{
+  position: relative;
+  display: block;
+  font-size: 16px;
+}
+
+.team-details .content-side .info-list li{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: var(--title-font);
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
+
+.team-details .content-side .info-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.team-details .content-side .info-list li a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.team-details .content-side .info-list li a:hover{
+  color: #EF721F;
+}
+
+.team-details .content-side .social-links{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-details .content-side .social-links li a{
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  line-height: 46px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 21px;
+  color: var(--title-color);
+  z-index: 1;
+}
+
+.team-details .content-side .social-links li a:hover{
+  color: #fff;
+  border-color: transparent;
+}
+
+.team-details .content-side .social-links li a:before{
+  position: absolute;
+  content: '';
+  background: var(--theme-color);
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  left: -1px;
+  top: -1px;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0,0);
+  transition: all 500ms ease;
+}
+
+.team-details .content-side .social-links li a:hover:before{
+  transform: scale(1,1);
+}
+
+.team-details .content-side h3{
+  display: block;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.team-details .progress-box .single-progress{
+  position: relative;
+  display: block;
+}
+
+.team-details .progress-box .single-progress h4{
+  display: block;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.team-details .progress-box .single-progress span{
+  position: absolute;
+  top: -38px;
+  right: -13px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: var(--title-font);
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+.team-details .form-inner .form-group{
+  position: relative;
+  display: block;
+  margin-bottom: 21px;
+}
+
+.team-details .form-inner .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.team-details .form-inner .form-group label{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--title-color);
+  margin-bottom: 6px;
+}
+
+.team-details .form-inner .form-group input[type='text'],
+.team-details .form-inner .form-group input[type='email'],
+.team-details .form-inner .form-group textarea{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #E5E5E5;
+  border-radius: 15px;
+  font-size: 16px;
+  color: var(--text-color);
+  padding: 10px 20px;
+  transition: all 500ms ease;
+}
+
+.team-details .form-inner .form-group input:focus,
+.team-details .form-inner .form-group textarea:focus{
+  border-color: #EF721F;
+}
+
+.team-details .form-inner .form-group textarea{
+  height: 170px;
+  resize: none;
+}
+
+.team-details .image-box{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+}
+
+.team-details .image-box img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .team-details .content-side{
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .team-details{
+    padding: 65px 0px 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

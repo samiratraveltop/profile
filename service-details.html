@@ -1,557 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!--=========== Meta Tags ==========-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="namespaceit">
-    <meta name="description" content="Ezensi - Creative Digital Agency Html Template">
-    <!--============= Page title ============ -->
-    <title>Ezensi - Creative Digital Agency Html Template</title>
-    <!--===== Favcion =====-->
-    <link rel="shortcut icon" href="assets/images/favicon.png">
-    <!--===== Bootstrap min.css =====-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--===== All Min Css =====-->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!--===== Animate.css =====-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--===== MeanMenu.css =====-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!--===== Swiper Bundle.css =====-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!--===== Magnific Popup.css =====-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--===== Text Splitting.css =====-->
-    <link rel="stylesheet" href="assets/css/splitting.css">
-    <!--===== Main.css =====-->
-    <link rel="stylesheet" href="assets/css/main.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Shared on THEMELOCK.COM - DigMox - HTML 5 Template Preview</title>
+
+<!-- Fav Icon -->
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="assets/css/flaticon.css" rel="stylesheet">
+<link href="assets/css/owl.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/nice-select.css" rel="stylesheet">
+<link href="assets/css/odometer.css" rel="stylesheet">
+<link href="assets/css/elpath.css" rel="stylesheet">
+<link href="assets/css/rtl.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/module-css/header.css" rel="stylesheet">
+<link href="assets/css/module-css/page-title.css" rel="stylesheet">
+<link href="assets/css/module-css/service-details.css" rel="stylesheet">
+<link href="assets/css/module-css/footer.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+
 </head>
 
+
+<!-- page wrapper -->
 <body>
 
-    <!--===== Preloader Start =====-->
-    <div id="preloader" class="preloader">
-        <div class="animation-preloader">
-            <div class="txt-loading">
-                <span data-text-preloader="E" class="letters-loading">
-                    E
-                </span>
-                <span data-text-preloader="G" class="letters-loading">
-                    G
-                </span>
-                <span data-text-preloader="E" class="letters-loading">
-                    E
-                </span>
-                <span data-text-preloader="N" class="letters-loading">
-                    N
-                </span>
-                <span data-text-preloader="S" class="letters-loading">
-                    S
-                </span>
-                <span data-text-preloader="I" class="letters-loading">
-                    I
-                </span>
-            </div>
-            <p class="text-center">Loading</p>
-        </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
+    <div class="boxed_wrapper ltr">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="d" class="letters-loading">
+                                d
+                            </span>
+                            <span data-text-preloader="i" class="letters-loading">
+                                i
+                            </span>
+                            <span data-text-preloader="g" class="letters-loading">
+                                g
+                            </span>
+                            <span data-text-preloader="m" class="letters-loading">
+                                m
+                            </span>
+                            <span data-text-preloader="o" class="letters-loading">
+                                o
+                            </span>
+                            <span data-text-preloader="x" class="letters-loading">
+                                x
+                            </span>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
-    </div>
+        <!-- preloader end -->
 
-    <!--===== Mouse Cursor Start =====-->
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
 
-    <!--===== Back To Top Start =====-->
-    <button id="back-top" class="back-to-top">
-        <i class="fa-solid fa-chevron-up"></i>
-    </button>
+        <!-- page-direction -->
+        <div class="page_direction">
+            <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
+            <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
+        </div>
+        <!-- page-direction end -->
 
-    <!-- Mobilemenu    S T A R T -->
-    <div class="global-menu-wrapper onepage-nav">
-        <div class="global-menu-area text-center">
-            <button class="global-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href='#'>
-                    <img src="assets/images/logo/white-logo.png" alt="Ezenci">
-                </a>
+
+        <div class="chat-icon"><button type="button" class="chat-toggler"><i class="far fa-comment"></i></button></div>
+
+
+        <!--chat popup-->
+        <div id="chat-popup" class="chat-popup">
+            <div class="popup-inner">
+                <div class="close-chat"><i class="icon-31"></i></div>
+                <div class="chat-form">
+                    <p>Please fill out the form below and we will get back to you as soon as possible.</p>
+                    <form method="post" action="index.html">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Text"></textarea>
+                        </div>
+                        <div class="form-group message-btn">
+                            <button type="submit" class="theme-btn btn-one"><span class="text">Submit Now</span></button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <nav class="global-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children">
-                        <a href='#'>Home</a>
-                        <ul class="sub-menu">
-                            <li><a href='index.html'>Home One</a></li>
-                            <li><a href='index2.html'>Home Two</a></li>
-                            <li><a href='index3.html'>Home Three</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a class="active" href='#'> Services </a>
-                        <ul class="sub-menu">
-                            <li><a href='services.html'>Services</a></li>
-                            <li><a class="active" href='service-details.html'>Service Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href='#'> Projects </a>
-                        <ul class="sub-menu">
-                            <li><a href='project.html'>Projects</a></li>
-                            <li><a href='project-details.html'>Projects Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href='#'> Blog </a>
-                        <ul class="sub-menu">
-                            <li><a href='blog.html'>Blog</a></li>
-                            <li><a href='blog-details.html'>Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href='#'> Pages </a>
-                        <ul class="sub-menu">
-                            <li><a href='project.html'>Projects</a></li>
-                            <li><a href='project-details.html'>Project Details</a></li>
-                            <li><a href='about.html'>About</a></li>
-                        </ul>
-                    </li>
-                    <li><a href='contact.html'>Contact</a></li>
-                </ul>
+        </div>
+
+
+        <!-- main header -->
+        <header class="main-header header-style-three">
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-container p_relative pl_70 pr_70">
+                    <div class="outer-box">
+                        <div class="left-column">
+                            <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                            <div class="menu-area">
+                                <!--Mobile Navigation Toggler-->
+                                <div class="mobile-nav-toggler">
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                </div>
+                                <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation clearfix">
+                                            <li class="dropdown"><a href="#">Home</a>
+                                                <ul>
+                                                    <li><a href="index.html">Main Home</a></li>
+                                                    <li><a href="index-2.html">Home Marketing Agency</a></li>
+                                                    <li><a href="index-3.html">Home Creative Agency</a></li>
+                                                    <li><a href="index-4.html">Home Design Studio</a></li>
+                                                    <li><a href="index-5.html">Home Modern Agency</a></li>
+                                                </ul>
+                                            </li> 
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li class="current dropdown"><a href="#">Services</a>
+                                                <ul>
+                                                    <li><a href="service.html">Services One</a></li>
+                                                    <li><a href="service-2.html">Services Two</a></li>
+                                                    <li><a href="service-details.html">Marketing Automation</a></li>
+                                                    <li><a href="service-details-2.html">Analytics and Reporting</a></li>
+                                                    <li><a href="service-details-3.html">Email Marketing</a></li>
+                                                    <li><a href="service-details-4.html">Content Marketing</a></li>
+                                                    <li><a href="service-details-5.html">Digital Strategy</a></li>
+                                                    <li><a href="service-details-6.html">Brand Identity</a></li>
+                                                </ul>
+                                            </li> 
+                                            <li class="dropdown"><a href="#">Pages</a>
+                                                <ul>
+                                                    <li class="dropdown"><a href="#">Team</a>
+                                                        <ul>
+                                                            <li><a href="team.html">Team Page</a></li>
+                                                            <li><a href="team-details.html">Team Details</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#">Project</a>
+                                                        <ul>
+                                                            <li><a href="project.html">Project One</a></li>
+                                                            <li><a href="project-2.html">Project Two</a></li>
+                                                            <li><a href="project-details.html">Project Details</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="faq.html">Faq'S</a></li>
+                                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                                    <li><a href="pricing.html">Pricing Table</a></li>
+                                                    <li><a href="error.html">404</a></li>
+                                                </ul>
+                                            </li> 
+                                            <li class="dropdown"><a href="#">Blog</a>
+                                                <ul>
+                                                    <li><a href="blog.html">Blog Grid</a></li>
+                                                    <li><a href="blog-2.html">Blog Standard</a></li>
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                </ul>
+                                            </li>  
+                                            <li><a href="contact.html">Contact</a></li> 
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="support-box"><a href="tel:2395432170108"><i class="icon-1"></i> <span>(239)-543-217-0108</span></a></div>
+                            <div class="btn-box"><a href="index.html" class="theme-btn btn-one"><span class="text">Book A Visit</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="outer-container p_relative pl_70 pr_70">
+                    <div class="outer-box">
+                        <div class="left-column">
+                            <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                            <div class="menu-area">
+                                <nav class="main-menu clearfix">
+                                    <!--Keep This Empty / Menu will come through Javascript-->
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="support-box"><a href="tel:2395432170108"><i class="icon-1"></i> <span>(239)-543-217-0108</span></a></div>
+                            <div class="btn-box"><a href="index.html" class="theme-btn btn-one"><span class="text">Book A Visit</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
-    </div>
+        <!-- End Mobile Menu -->
 
-    <!-- Header Section    S T A R T -->
-    <header class="global-header1 header-layout1">
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="container">
-                <div class="global-header1-menu-area">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href='#'>
-                                    <img src="assets/images/logo/white-logo.png" alt="Ezenci">
-                                </a>
+
+        <!-- page-title -->
+        <section class="page-title pt_150 pb_150 centred">
+            <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>Marketing Automation</h1>
+                    <ul class="bread-crumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Service Details</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- service-details -->
+        <section class="service-details pt_150 pb_150">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="service-sidebar mr_40">
+                            <div class="category-widget sidebar-widget block-shadow mb_35">
+                                <div class="widget-title">
+                                    <h3>Our Services</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="category-list clearfix">
+                                        <li><a href="service-details.html" class="current">Marketing Automation <i class="icon-3"></i></a></li>
+                                        <li><a href="service-details-2.html">Analytics and Reporting <i class="icon-3"></i></a></li>
+                                        <li><a href="service-details-3.html">Email Marketing <i class="icon-3"></i></a></li>
+                                        <li><a href="service-details-4.html">Content Marketing <i class="icon-3"></i></a></li>
+                                        <li><a href="service-details-5.html">Digital Strategy <i class="icon-3"></i></a></li>
+                                        <li><a href="service-details-6.html">Brand Identity <i class="icon-3"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="contact-widget sidebar-widget block-shadow">
+                                <div class="widget-title">
+                                    <h3>Contact Info</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info-list clearfix">
+                                        <li><i class="icon-41"></i><span>6391 Elgin St. Celina, <br />Delaware 10299</span></li>
+                                        <li><i class="icon-42"></i><a href="tel:5284567592">+(528) 456-7592</a></li>
+                                        <li><i class="icon-43"></i><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-auto">
-                            <nav class="global-header1-menu-area-main-menu d-none d-xl-inline-block">
-                                <ul>
-                                    <li class="global-header1-menu-item-has-children">
-                                        <a href='#'>Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href='index.html'>Home One</a></li>
-                                            <li><a href='index2.html'>Home Two</a></li>
-                                            <li><a href='index3.html'>Home Three</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="global-header1-menu-item-has-children">
-                                        <a class="active" href='#'> Services </a>
-                                        <ul class="sub-menu">
-                                            <li><a href='services.html'>Services</a></li>
-                                            <li><a class="active" href='service-details.html'>Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="global-header1-menu-item-has-children">
-                                        <a href='#'> Projects </a>
-                                        <ul class="sub-menu">
-                                            <li><a href='project.html'>Project</a></li>
-                                            <li><a href='project-details.html'>Project Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="global-header1-menu-item-has-children">
-                                        <a href='#'> Blog </a>
-                                        <ul class="sub-menu">
-                                            <li><a href='blog.html'>Blog</a></li>
-                                            <li><a href='blog-details.html'>Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="global-header1-menu-item-has-children">
-                                        <a href='#'> Pages </a>
-                                        <ul class="sub-menu">
-                                            <li><a href='project.html'>Projects</a></li>
-                                            <li><a href='project-details.html'>Project Details</a></li>
-                                            <li><a href='about.html'>About</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href='contact.html'>Contact</a></li>
-                                </ul>
-                            </nav>
-                            <div class="header-button d-flex d-xl-none">
-                                <button type="button" class="global-menu-toggle sidebar-btn">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                </button>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="service-details-content">
+                            <div class="content-one mb_60">
+                                <figure class="image-box"><img src="assets/images/service/service-7.jpg" alt=""></figure>
+                                <h2 class="mb_15">Marketing Automation</h2>
+                                <p class="mb_40">Lorem ipsum dolor sit amet consectetur. Tristique ac condimentum maecenas volutpat suspendisse morbi. Maecenas tellus sed quisque porta euismod aliquet felis nibh. Nibh a morbi sem proin orci sed ornare. Justo tortor venenatis nisi purus quam.</p>
+                                <h3 class="mb_20">Services Details</h3>
+                                <p class="mb_30">Lorem ipsum dolor sit amet consectetur. Tristique ac condimentum maecenas volutpat suspendisse morbi. Maecenas tellus sed quisque porta euismod aliquet felis nibh. Nibh a morbi sem proin orci sed ornare. Justo tortor venenatis nisi purus quam.</p>
+                                <p>Amet aliquam faucibus mollis vestibulum a adipiscing etiam dignissim pulvinar. Aliquam egestas pulvinar lacus quisque morbi.</p>
                             </div>
-                        </div>
-                        <div class="col-auto d-none d-xxl-block">
-                            <div class="global-header1-social-button">
-                                <ul class="global-header1-social-button__list">
-                                    <li><a href="#!"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                </ul>
+                            <div class="content-two mb_60">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-7 col-md-12 col-sm-12 text-column">
+                                        <div class="text-box">
+                                            <h3 class="mb_20">The Challenge</h3>
+                                            <p class="mb_17">Maecenas tellus sed quisque porta euismod aliquet felis nibh nibh a morbi sem proin orci sed ornare justo tortor venenatis nisi purus quam amet aliquam</p>
+                                            <ul class="list-item clearfix">
+                                                <li>Planning solution structure drawings</li>
+                                                <li>Begin by creating rough sketches</li>
+                                                <li>Create elevation drawings</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-12 col-sm-12 image-column">
+                                        <figure class="image-box ml_35 pl_2"><img src="assets/images/service/service-8.jpg" alt=""></figure>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-auto d-none d-xl-block">
-                            <div class="global-header1-header-button">
-                                <div class="btn-wrapper">
-                                    <a class="theme-btn style2 " href="contact.html">READ MORE <svg
-                                            xmlns="http://www.w3.org/2000/svg" width="50" height="30"
-                                            viewBox="0 0 50 30" fill="none">
-                                            <path
-                                                d="M38.3536 15.3536C38.5488 15.1583 38.5488 14.8417 38.3536 14.6464L35.1716 11.4645C34.9763 11.2692 34.6597 11.2692 34.4645 11.4645C34.2692 11.6597 34.2692 11.9763 34.4645 12.1716L37.2929 15L34.4645 17.8284C34.2692 18.0237 34.2692 18.3403 34.4645 18.5355C34.6597 18.7308 34.9763 18.7308 35.1716 18.5355L38.3536 15.3536ZM-4.37114e-08 15.5L38 15.5L38 14.5L4.37114e-08 14.5L-4.37114e-08 15.5Z"
-                                                fill="white" />
-                                            <circle cx="35" cy="15" r="14.5" stroke="white" />
-                                        </svg></a>
+                            <div class="content-three">
+                                <h3 class="mb_35">Frequently Asked Question</h3>
+                                <div class="inner-box">
+                                    <div class="single-item">
+                                        <h4>1.&nbsp;&nbsp;What services does your agency offer?</h4>
+                                        <p>AI isn't here to replace human creativity but it can amplify it and take it even further. So whether you're creating fanart of your favorite anime.</p>
+                                    </div>
+                                    <div class="single-item">
+                                        <h4>2.&nbsp;&nbsp;Can other info be added to an invoice?</h4>
+                                        <p>AI isn't here to replace human creativity but it can amplify it and take it even further. So whether you're creating fanart of your favorite anime.</p>
+                                    </div>
+                                    <div class="single-item">
+                                        <h4>3.&nbsp;&nbsp;Do you have any low cost options?</h4>
+                                        <p>AI isn't here to replace human creativity but it can amplify it and take it even further. So whether you're creating fanart of your favorite anime.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </section>
+        <!-- service-details end -->
 
-    <!--===== Breadcrumb Section    S T A R T =====-->
-    <div class="breadcrumb-wrapper bg-color2">
-        <div class="container">
-            <div class="breadcrumb-wrapper-page-heading">
-                <h1 class="breadcrumb-wrapper-page-heading__title wow fadeInUp" data-wow-delay=".3s">Servicen Details
-                </h1>
-                <ul class="breadcrumb-wrapper-page-heading__breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-                    <li>
-                        <a href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fa-regular fa-slash-forward"></i>
-                    </li>
-                    <li>
-                        Service Details
-                    </li>
-                </ul>
-                <div class="breadcrumb-wrapper-page-heading__text">
-                    Service_Details
+
+        <!-- main-footer -->
+        <footer class="main-footer radius_0">
+            <div class="pattern-layer-3" style="background-image: url(assets/images/shape/shape-4.png);"></div>
+            <div class="outer-container p_relative">
+                <div class="dark-footer">
+                    <div class="footer-top p_relative">
+                        <div class="bg-color bg-color-1"></div>
+                        <div class="auto-container">
+                            <div class="inner-container pr_5 pb_5 block-shadow">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 logo-column">
+                                        <figure class="footer-logo"><a href="index.html"><img src="assets/images/logo-3.png" alt=""></a></figure>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 form-column">
+                                        <div class="form-inner">
+                                            <h3>Subscribe Now</h3>
+                                            <form method="post" action="contact.html">
+                                                <div class="form-group">
+                                                    <input type="email" name="email" placeholder="Enter your email" required>
+                                                    <button type="submit"><i class="icon-8"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-footer-content bg-color-1 p_relative">
+                    <div class="widget-section p_relative pt_90 pb_90">
+                        <div class="auto-container">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-12 col-sm-12 footer-column">
+                                    <div class="footer-widget about-widget">
+                                        <div class="widget-content">
+                                            <h2>Connect with Us to Start Working Together!</h2>
+                                            <a href="contact.html" class="theme-btn btn-one"><span class="text">Get Started</span><i class="icon-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-title">
+                                            <h3>Links</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="links-list clearfix">
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="team.html">Our Team</a></li>
+                                                <li><a href="project.html">Our Projects</a></li>
+                                                <li><a href="faq.html">FAQ’S</a></li>
+                                                <li><a href="contact.html">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget contact-widget">
+                                        <div class="widget-title">
+                                            <h3>Get In Touch</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="info-list mb_25">
+                                                <li><i class="icon-9"></i><span>Add:  New Hyde Park, NY 11040</span></li>
+                                                <li><i class="icon-10"></i><span>Email:  <a href="mailto:example@info.com">example@info.com</a></span></li>
+                                                <li><i class="icon-11"></i><span>Phone:  <a href="tel:3336660000">333 666 0000</a></span></li>
+                                            </ul>
+                                            <ul class="social-links">
+                                                <li><a href="index.html"><i class="icon-12"></i></a></li>
+                                                <li><a href="index.html"><i class="icon-13"></i></a></li>
+                                                <li><a href="index.html"><i class="icon-14"></i></a></li>
+                                                <li><a href="index.html"><i class="icon-15"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="auto-container">
+                            <div class="bottom-inner">
+                                <div class="copyright"><p>Copyright 2025 by <a href="index.html">DigMox</a> All Right Reserved.</p></div>
+                                <ul class="footer-menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
         </div>
+        
     </div>
-    <!--===== Breadcrumb Section    E N D =====-->
 
 
-    <!--===== Service Details Section    S T A R T =====-->
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/scrolltop.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/odometer.js"></script>
 
-    <section class="service-details section-padding fix">
-        <div class="container">
-            <div class="service-details-wrapper">
-                <div class="service-details__content">
-                    <h2 class="service-details__content-title wow fadeInUp" data-wow-delay="0.3s">Transforming Ideas
-                        into Reality</h2>
-                    <p class="service-details__content-text">A creative agency is a hub of innovation imagination
-                        specializing in storytelling branding and These agencies bring ideas to life </p>
-                </div>
-                <div class="service-details-items wow fadeInUp" data-wow-delay="0.4s">
-                    <h3 class="service-details-items__title">Services</h3>
-                    <ul class="service-details-items__list">
-                        <li><a href="blog.html">Elite Auto Services</a> <span>02</span></li>
-                        <li><a href="blog.html">Imagination Forge</a> <span>01</span></li>
-                        <li><a href="blog.html">Artistry Avenue</a><span>03</span></li>
-                        <li><a href="blog.html">InnovateIQ Agency</a> <span>04</span></li>
-                    </ul>
-                </div>
-                <div class="service-details1-info wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="service-details-info__thumb">
-                        <img src="assets/images/service_details/blog-thumb1_1.jpg" alt="thumb">
-                    </div>
-                    <div class="service-details-info__contact">
-                        <p class="service-details-info__contact-text">A creative agency is a hub of innovation and
-                            imagination, specializing in storytelling branding, and design. These agencies bring ideas
-                            to life through a unique blend of artistry and strategy, helping businesses make a lasting
-                            impact</p>
-                        <p class="service-details-info__contact-subtext">A creative agency is a hub of innovation and
-                            imagination, specializing in storytelling branding, and design. These agencies bring ideas
-                            to life through a unique blend of artistry and strategy, helping businesses make a lasting
-                            impact</p>
-                    </div>
-                </div>
-                <div class="service-details-cards">
-                    <div class="service1-card wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="service-details.html">
-                            <h3 class="service1-card__title">Brand Craft Solutions</h3>
-                        </a>
-                        <p class="service1-card__desc">A creative agency speciali providing innovative and unique
-                            solutions to businesses build their brand </p>
-                        <ul class="checklist">
-                            <li class="checklist__item"><i class="fa-solid fa-plus"></i>Strategy Weaving Stories</li>
-                            <li class="checklist__item"><i class="fa-solid fa-plus"></i>Brand Blaze Igniting Passion
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="service1-card wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="service-details.html">
-                            <h3 class="service1-card__title">Creati Merge Artistry</h3>
-                        </a>
-                        <p class="service1-card__desc">A creative agency speciali providing innovative and unique
-                            solutions to businesses build their brand </p>
-                        <ul class="checklist">
-                            <li class="checklist__item"><i class="fa-solid fa-plus"></i>Strategy Spark</li>
-                            <li class="checklist__item"><i class="fa-solid fa-plus"></i>Brand Blaze</li>
-                        </ul>
-                    </div>
-                    <div class="service1-card wow fadeInUp" data-wow-delay="0.7s">
-                        <a href="service-details.html">
-                            <h3 class="service1-card__title">Logo Launch Solutions</h3>
-                        </a>
-                        <p class="service1-card__desc">A creative agency speciali providing innovative and unique
-                            solutions to businesses build their brand </p>
-                        <ul class="checklist">
-                            <li class="checklist__item"><i class="fa-solid fa-plus"></i>Spark From Vision to Visibility
-                            </li>
-                            <li class="checklist__item"><i class="fa-solid fa-plus"></i>Blaze Beyond Boundaries</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="service-details-area">
-                    <h3 class="service-details-area__title wow fadeInUp" data-wow-delay="0.3s">Weaving Stories Igniting
-                        Passion</h3>
-                    <p class="service-details-area__text wow fadeInUp" data-wow-delay="0.5s">A creative agency is a hub
-                        of innovation and imagination,
-                        specializing in storytelling branding, and design. These agencies bring ideas to life through a
-                        unique blend of artistry and strategy, helping businesses make a lasting impact</p>
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
 
-                    <div class="service-details-area-list1">
-                        <div class="service-details-area-list1__items1 wow fadeInUp" data-wow-delay="0.3s">
-                            <ul class="service-details-area-list1__items1-sublist">
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    More Customers
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    Drive More Traffic, Convert
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    Where Creativity Meets Strategy
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="service-details-area-list1__items1 wow fadeInUp" data-wow-delay="0.5s">
-                            <ul class="service-details-area-list1__items1-sublist">
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    Increase Visibility
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    Transforming Ideas into Reality
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    Designing Tomorrow Today
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="service-details-area-list1__items1 wow fadeInUp" data-wow-delay="0.7s">
-                            <ul class="service-details-area-list1__items1-sublist">
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    Inspiring Brands, Empowering Stories
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    From Vision to Visibility
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-circle-check"></i>
-                                    Empowering Your Creative Journey
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="service-details-area__subtext wow fadeInUp" data-wow-delay="0.3s">A creative agency is a
-                        hub of innovation and imagination,
-                        specializing in storytelling branding, and design. These agencies bring ideas to life through a
-                        unique blend of artistry and strategy, helping businesses make a lasting impact</p>
-
-                    <div class="service-details-area-button wow fadeInUp" data-wow-delay="0.5s">
-                        <button class="service-details-area-button__arry-prev">
-                            <i class="fa-regular fa-angle-left"></i>
-                            <span>Previous post</span>
-                        </button>
-                        <button class="service-details-area-button__arry-next">
-                            <span class="service-details-area-button__next">Next post</span>
-                            <i class="fa-regular fa-angle-right"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--===== Service Details Section    E N D =====-->
-
-
-    <!--===== Footer Section  S T A R T =====-->
-    <section class="footer2 fix" style="background-image: url(assets/images/footer/footer-bg2_1.jpg);">
-        <div class="container">
-            <div class="footer2-top">
-                <div class="row align-items-center justify-content-md-between justify-content-start">
-                    <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
-                        <h2 class="footer2-top__title">Enjoy Up To 75% Off!</h2>
-                        <p class="footer2-top__text">A creative agency speciali innovative and solutions to <br>
-                            businesses A
-                            creative agency speciali </p>
-                    </div>
-                    <div class="col-lg-5">
-                        <a class="theme-btn style1 d-block text-center" href="contact.html">Buy now <svg
-                                xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="0 0 50 30"
-                                fill="none">
-                                <path
-                                    d="M38.3536 15.3536C38.5488 15.1583 38.5488 14.8417 38.3536 14.6464L35.1716 11.4645C34.9763 11.2692 34.6597 11.2692 34.4645 11.4645C34.2692 11.6597 34.2692 11.9763 34.4645 12.1716L37.2929 15L34.4645 17.8284C34.2692 18.0237 34.2692 18.3403 34.4645 18.5355C34.6597 18.7308 34.9763 18.7308 35.1716 18.5355L38.3536 15.3536ZM-4.37114e-08 15.5L38 15.5L38 14.5L4.37114e-08 14.5L-4.37114e-08 15.5Z"
-                                    fill="white" />
-                                <circle cx="35" cy="15" r="14.5" stroke="white" />
-                            </svg></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="footer2-widget__item">
-                        <div class="footer2-widget__item-logo">
-                            <a href="index.html"><img src="assets/images/logo/white-logo.png" alt="logo"></a>
-                        </div>
-                        <div class="footer2-widget__item-contact">
-                            <h6 class="footer2-widget__item-contact-title">Address</h6>
-                            <a class="footer2-widget__item-contact-link" href="contact.html">66 Broklyant,India</a>
-                        </div>
-                        <div class="footer2-widget__item-contact">
-                            <h6 class="footer2-widget__item-contact-title">Phone Number</h6>
-                            <a class="footer2-widget__item-contact-link" href="tel:012-345-678-9101">012 345 678
-                                9101</a>
-                        </div>
-                        <div class="footer2-widget__item-contact">
-                            <h6 class="footer2-widget__item-contact-title">Email</h6>
-                            <a class="footer2-widget__item-contact-link" href="mailto:abcd@gmail.com">abcd@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="footer2-widget__item ps40">
-                        <div class="footer2-widget__item-title">
-                            Page
-                        </div>
-                        <ul class="footer2-widget__item-list">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="#">Why Chose Us</a></li>
-                            <li><a href="#">Doctors</a></li>
-                            <li><a href="blog.html">Blog And News</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="footer2-widget__item ps40">
-                        <div class="footer2-widget__item-title">
-                            Services
-                        </div>
-                        <ul class="footer2-widget__item-list">
-                            <li><a href="#"><span><img class="svg" src="assets/images/icon/angles-right2.svg"
-                                            alt="svg"></span> Creative Canvas Co</a></li>
-                            <li><a href="#"><span><img class="svg" src="assets/images/icon/angles-right2.svg"
-                                            alt="svg"></span> Design Dynamo</a></li>
-                            <li><a href="#"><span><img class="svg" src="assets/images/icon/angles-right2.svg"
-                                            alt="svg"></span> Story Sculpt Studio</a></li>
-                            <li><a href="#"><span><img class="svg" src="assets/images/icon/angles-right2.svg"
-                                            alt="svg"></span> Innovate IQ Agency</a></li>
-                            <li><a href="#"><span><img class="svg" src="assets/images/icon/angles-right2.svg"
-                                            alt="svg"></span> Brand Bliss Creations</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-5 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                    <div class="footer2-widget__item ps40 last-item">
-                        <div class="footer2-widget__item-title">
-                            Newsletter
-                        </div>
-                        <div class="footer2-widget__item-input">
-                            <input class="form-control" type="email" placeholder="Enter your E-mail">
-                            <button class="theme-btn style1" type="submit">Subscribe Now <svg
-                                    xmlns="http://www.w3.org/2000/svg" width="71" height="40" viewBox="0 0 71 40"
-                                    fill="none">
-                                    <path
-                                        d="M55.7071 20.7071C56.0976 20.3166 56.0976 19.6834 55.7071 19.2929L49.3431 12.9289C48.9526 12.5384 48.3195 12.5384 47.9289 12.9289C47.5384 13.3195 47.5384 13.9526 47.9289 14.3431L53.5858 20L47.9289 25.6568C47.5384 26.0474 47.5384 26.6805 47.9289 27.0711C48.3195 27.4616 48.9526 27.4616 49.3431 27.0711L55.7071 20.7071ZM8.74228e-08 21L55 21L55 19L-8.74228e-08 19L8.74228e-08 21Z"
-                                        fill="white" />
-                                    <circle cx="51" cy="20" r="19.5" stroke="#E44F39" />
-                                </svg></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer2-bottom wow fadeInUp" data-wow-delay=".3s">
-                <div class="container">
-                    <div class="footer2-bottom-item d-flex align-items-center justify-content-between">
-                        <p class="footer2-bottom-item__text">
-                            © <a href="index.html">Yoursitename</a> 2024 | All Rights Reserved
-                        </p>
-                        <ul class="footer2-bottom-item__list">
-                            <li><a href="#">Terms & Condition</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!--===== All JS Plugins =====-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--===== Bootstrap Js =====-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--===== Waypoints Js =====-->
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <!--===== Counterup Js =====-->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!--===== Viewport Js =====-->
-    <script src="assets/js/viewport.jquery.js"></script>
-    <!--===== Tilt Js =====-->
-    <script src="assets/js/tilt.min.js"></script>
-    <!--===== Splitting Animation Js =====-->
-    <script src="assets/js/splitting.js"></script>
-    <!--===== Swiper Slider Js =====-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!--===== Magnific Js =====-->
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <!--===== MeanMenu Js =====-->
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <!--===== Wow Animation Js =====-->
-    <script src="assets/js/wow.min.js"></script>
-    <!--===== Main.js =====-->
-    <script src="assets/js/main.js"></script>
-</body>
-
+</body><!-- End of .page_wrapper -->
 </html>
