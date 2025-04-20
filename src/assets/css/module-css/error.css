@@ -1,0 +1,102 @@
+
+/** error-section **/
+
+.error-section{
+  position: relative;
+}
+
+.error-section .content-box h3{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  top: 42px;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.error-section .content-box h2{
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 14px;
+}
+
+.error-section .content-box p{
+  margin-bottom: 32px;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .error-section{
+    padding: 100px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

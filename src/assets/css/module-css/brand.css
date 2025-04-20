@@ -1,0 +1,115 @@
+
+/** brand-section **/
+
+.brand-section{
+  position: relative;
+}
+
+.brand-section .brand-logo{
+  position: relative;
+  display: block;
+}
+
+.brand-section .brand-logo img{
+  position: relative;
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  transition: all 500ms ease;
+}
+
+.brand-section .brand-logo img:hover{
+  transform: scale(1.03);
+}
+
+.brand-section .owl-carousel .owl-stage{
+  display: flex;
+  align-items: center;
+}
+
+.brand-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: -600px;
+  right: 0px;
+  width: 1300px;
+  height: 1300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .brand-section.pb_150{
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
