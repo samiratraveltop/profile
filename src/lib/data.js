@@ -490,7 +490,7 @@ export const tabunganUmrohDetail = {
   button_text: "Konsultasi Sekarang",
   phone_number: phone,
   button_default_message:
-    "Assalamualaikum Saya tertarik menjadi Mitra Samira tapi mau konsultasi dulu",
+    "Assalamualaikum Saya tertarik untuk menabung biaya umroh",
   video_title: "Bersatu Untuk Indonesia <br /> Bank Syariah Indonesia",
   video_image_path: "assets/images/background/makkah-banner-promotion.png",
   youtube: {
