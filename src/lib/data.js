@@ -162,6 +162,10 @@ export const umrohFeaturesPackage = {
         name: "Perlengkapan lainnya",
         image_path: "assets/images/package/paket-3.png",
       },
+      {
+        name: "Perlengkapan lainnya",
+        image_path: "assets/images/package/paket-3.png",
+      },
     ],
   },
 };
