@@ -509,6 +509,10 @@ export const promo = {
       name: "",
       image_path: "assets/images/resource/leaflet-1.jpeg",
     },
+    {
+      name: "",
+      image_path: "assets/images/resource/leaflet-1.jpeg",
+    },
   ],
   button_text: "Konsultasi Sekarang",
   phone_number: phone,
