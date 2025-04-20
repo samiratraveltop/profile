@@ -124,17 +124,17 @@ export const umrohPackage = {
     {
       name: "Umroh Reguler",
       image_path: "assets/images/package/umroh-reguler.png",
-      link: "#",
+      link: null,
     },
     {
       name: "Umroh Plus Turkey",
       image_path: "assets/images/package/umroh-plus-turkey.png",
-      link: "#",
+      link: null,
     },
     {
       name: "Haji Furoda",
       image_path: "assets/images/package/haji-furoda.png",
-      link: "#",
+      link: null,
     },
   ],
   button_text: "Konsultasi Sekarang",
