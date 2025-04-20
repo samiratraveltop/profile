@@ -1,5 +1,5 @@
-const phone = "6285204620528";
-const phone_alternative = "6283112276006";
+const phone = "62081548674393";
+const phone_alternative = "6281548327551";
 
 export const header = {
   logo_path: "assets/images/samiralogo.png",
@@ -114,7 +114,7 @@ export const about = {
   image_path_1: "assets/images/resource/about-1.png",
   image_path_2: "assets/images/resource/about-2.png",
   image_description:
-    '<span class="gradient-color">Umroh+</span>Marseno & Suwahmi',
+    '<span class="gradient-color">Umroh+</span>Warseno & Suwahmi',
 };
 
 export const umrohPackage = {
