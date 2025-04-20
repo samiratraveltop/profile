@@ -124,17 +124,17 @@ export const umrohPackage = {
     {
       name: "Umroh Reguler",
       image_path: "assets/images/package/umroh-reguler.png",
-      link: "https://www.samiratravel.co.id/umroh-reguler/",
+      link: "#",
     },
     {
       name: "Umroh Plus Turkey",
       image_path: "assets/images/package/umroh-plus-turkey.png",
-      link: "https://www.samiratravel.co.id/umroh-plus-turkey-samira/",
+      link: "#",
     },
     {
       name: "Haji Furoda",
       image_path: "assets/images/package/haji-furoda.png",
-      link: "https://www.samiratravel.co.id/haji-furoda/",
+      link: "#",
     },
   ],
   button_text: "Konsultasi Sekarang",
@@ -162,10 +162,7 @@ export const umrohFeaturesPackage = {
         name: "Perlengkapan lainnya",
         image_path: "assets/images/package/paket-3.png",
       },
-      {
-        name: "Perlengkapan lainnya",
-        image_path: "assets/images/package/paket-3.png",
-      },
+      
     ],
   },
 };
