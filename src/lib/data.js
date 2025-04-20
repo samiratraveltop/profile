@@ -114,7 +114,7 @@ export const about = {
   image_path_1: "assets/images/resource/about-1.png",
   image_path_2: "assets/images/resource/about-2.png",
   image_description:
-    '<span class="gradient-color">Umroh+</span>Warseno & Suwahmi',
+    '<span class="gradient-color">Umroh+</span>Warseno & Suwahmi' + '<span class="gradient-color">AGEN</span>039157',
 };
 
 export const umrohPackage = {
