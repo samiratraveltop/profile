@@ -13,8 +13,8 @@ export const header = {
 export const contact = {
   title: "Kontak Kami",
   address: "Jl.Mawar 45, Solo, Jawa Tengah",
-  phone_number_alternative: phone_alternative,
-  phone_number: phone,
+  phone_number_alternative: phone_alternative +" (Warseno)",
+  phone_number: phone + " (Suwahmi)",
   email: "machrus@example.com",
 };
 
